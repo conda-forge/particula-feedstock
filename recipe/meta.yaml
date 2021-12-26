@@ -1,4 +1,4 @@
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 
 package:
   name: particula
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://github.com/uncscode/particula/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 3aff43440a293a97dd0c9a7d2312850ccabf5b300d642a14add65d5b3b0f900e
+  sha256: 91cacd9a54e5914335224f7022dbc17bc919e769f7735afac578dd6fdc05f489
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -38,7 +38,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'a simple, fast, and powerful particle simulator'
+  summary: a simple, fast, and powerful particle simulator
 
 extra:
   recipe-maintainers:

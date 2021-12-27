@@ -29,7 +29,7 @@ test:
   commands:
     - pip check
     - python -c "import particula; print(particula.__version__)"
-    - pytest .
+    - pytest
 
 about:
   home: https://uncscode.github.io/particula

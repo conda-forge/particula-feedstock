@@ -27,7 +27,7 @@ test:
     - pytest
     - pip
   source_files:
-    - particula/aerosol_dynamics/tests
+    - particula
   commands:
     - pip check
     - python -c "import particula; print(particula.__version__)"
@@ -44,7 +44,6 @@ about:
      It is a simple particle system that is designed to be easy to use and easy to extend. 
      The goal is to have a robust aerosol (gas phase and particle phase) simulation system 
      that can be used to answer scientific questions that arise for experiments and research discussions.
-
   dev_url: https://github.com/uncscode/particula
   doc_url: https://uncscode.github.io/particula/
 

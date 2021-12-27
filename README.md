@@ -1,13 +1,23 @@
 About particula
 ===============
 
-Home: https://github.com/uncscode/particula
+Home: https://uncscode.github.io/particula
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/particula-feedstock/blob/master/LICENSE.txt)
 
 Summary: a simple, fast, and powerful particle simulator
+
+Development: https://github.com/uncscode/particula
+
+Documentation: https://uncscode.github.io/particula/
+
+Particula is a simple, fast, and powerful particle simulator, or at least two of the three, we hope.
+It is a simple particle system that is designed to be easy to use and easy to extend.
+The goal is to have a robust aerosol (gas phase and particle phase) simulation system
+that can be used to answer scientific questions that arise for experiments and research discussions.
+
 
 Current build status
 ====================

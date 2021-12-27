@@ -26,6 +26,8 @@ test:
   requires:
     - pytest
     - pip
+  source_files:
+    - particula/aerosol_dynamics/tests
   commands:
     - pip check
     - python -c "import particula; print(particula.__version__)"

@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/uncscode/particula/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 91cacd9a54e5914335224f7022dbc17bc919e769f7735afac578dd6fdc05f489
+  sha256: 99c9666f411d71b47e3236aca0fe4611c3499aef9f7b230476a0de4c7272f406
 
 build:
   number: 0

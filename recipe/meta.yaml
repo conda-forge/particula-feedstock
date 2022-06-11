@@ -1,4 +1,4 @@
-{% set version = "0.0.4" %}
+{% set version = "0.0.5" %}
 
 package:
   name: particula
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/uncscode/particula/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 99c9666f411d71b47e3236aca0fe4611c3499aef9f7b230476a0de4c7272f406
+  sha256: c7aaca58a89173a9950bab6014028dc712362b00e97a03a0aa6ee56fbeb30588
 
 build:
   number: 0
@@ -41,10 +41,10 @@ about:
   license_file: LICENSE
   summary: a simple, fast, and powerful particle simulator
   description: |
-     Particula is a simple, fast, and powerful particle simulator, or at least two of the three, we hope. 
-     It is a simple particle system that is designed to be easy to use and easy to extend. 
-     The goal is to have a robust aerosol (gas phase and particle phase) simulation system 
-     that can be used to answer scientific questions that arise for experiments and research discussions.
+    Particula is a simple, fast, and powerful particle simulator, or at least two of the three, we hope. 
+    It is a simple particle system that is designed to be easy to use and easy to extend. 
+    The goal is to have a robust aerosol (gas phase and particle phase) simulation system 
+    that can be used to answer scientific questions that arise for experiments and research discussions.
   dev_url: https://github.com/uncscode/particula
   doc_url: https://uncscode.github.io/particula/
 

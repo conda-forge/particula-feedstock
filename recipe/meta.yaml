@@ -12,7 +12,7 @@ build:
   number: 0
   noarch: python
   script:
-    - rm -rf pyproject.tom
+    - rm -rf pyproject.toml
     - {{ PYTHON }} -m pip install . -vv
 
 requirements:

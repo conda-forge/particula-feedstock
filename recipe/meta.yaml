@@ -13,7 +13,7 @@ build:
   noarch: python
   script:
     - rm -rf pyproject.toml
-    - {{ PYTHON }} -m pip install . -vv
+    - {{ PYTHON }} -m pip install . -vv --no-build-isolation
 
 requirements:
   host:

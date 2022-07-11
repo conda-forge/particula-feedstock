@@ -14,6 +14,8 @@ build:
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
+  build:
+    - flit_core >=3.2,<4
   host:
     - python >=3.7
     - pip

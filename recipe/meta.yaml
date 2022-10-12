@@ -23,6 +23,7 @@ requirements:
     - numpy
     - pint
     - scipy
+    - hypersolver ==0.0.8
 
 test:
   requires:
@@ -52,5 +53,4 @@ about:
 extra:
   recipe-maintainers:
     - gorkowski
-    - wkchuang
     - ngam

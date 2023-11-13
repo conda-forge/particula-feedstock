@@ -15,15 +15,23 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.9
     - pip
     - flit-core >=3.2,<4
   run:
-    - python >=3.7
+    - python >=3.9
     - numpy
     - pint
     - scipy
     - hypersolver ==0.0.8
+    - pandas
+    - netCDF4
+    - shapely
+    - PyMieScatt
+    - tqdm
+    - pytz
+    - typing
+    - matplotlib
 
 test:
   requires:

@@ -1,11 +1,11 @@
-About particula
-===============
+About particula-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/particula-feedstock/blob/main/LICENSE.txt)
 
 Home: https://uncscode.github.io/particula
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/particula-feedstock/blob/main/LICENSE.txt)
 
 Summary: a simple, fast, and powerful particle simulator
 

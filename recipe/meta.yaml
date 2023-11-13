@@ -30,7 +30,6 @@ requirements:
     - PyMieScatt
     - tqdm
     - pytz
-    - typing
     - matplotlib-base
 
 test:

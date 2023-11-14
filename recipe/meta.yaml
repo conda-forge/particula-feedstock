@@ -31,6 +31,7 @@ requirements:
     - tqdm
     - pytz
     - matplotlib-base
+    - typing
 
 test:
   requires:

@@ -7,7 +7,7 @@ package:
 source:
   url: https://github.com/uncscode/particula/archive/refs/tags/v{{ version }}.tar.gz
   sha256: 56a2c563d7ca0038eba12deb83b94fe1a1406723b62d96e255a85fba8d8773a3
-  pathces:
+  patches:
     - patches/no-need-for-typing.diff
 
 build:

@@ -1,0 +1,23 @@
+From b7b31a482ca3823a6cb786a6a774aec9d9e1ab06 Mon Sep 17 00:00:00 2001
+From: ngam <67342040+ngam@users.noreply.github.com>
+Date: Tue, 14 Nov 2023 00:22:08 -0500
+Subject: [PATCH] typing is included in stdlib in 3.5+
+
+no need to include it in the deps
+especilaly that we are only acepting 3.7 anyway
+---
+ pyproject.toml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/pyproject.toml b/pyproject.toml
+index 7c0cb77..f166dcb 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -23,7 +23,7 @@ keywords = [
+ 
+ dependencies = [
+     "numpy", "scipy", "pint", "hypersolver==0.0.8", "pandas",
+-    "netCDF4", "shapely", "PyMieScatt", "tqdm", "pytz", "typing",
++    "netCDF4", "shapely", "PyMieScatt", "tqdm", "pytz",
+     "matplotlib"
+ ]

@@ -7,8 +7,6 @@ package:
 source:
   url: https://github.com/uncscode/particula/archive/refs/tags/v{{ version }}.tar.gz
   sha256: 25c3792603c31832907f4a80277eba155a5b88fbd36c9d603d5ed18c358846f0
-  patches:
-    - patches/371.patch
 
 build:
   number: 0
@@ -17,11 +15,11 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python >=3.9,3.12
     - pip
     - flit-core >=3.2,<4
   run:
-    - python >=3.9
+    - python >=3.9,3.12
     - numpy
     - pint
     - scipy
@@ -33,6 +31,7 @@ requirements:
     - tqdm
     - pytz
     - matplotlib-base
+    - pytorch
 
 test:
   requires:
@@ -63,3 +62,4 @@ extra:
   recipe-maintainers:
     - gorkowski
     - ngam
+    - ngmahfouz

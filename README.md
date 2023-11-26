@@ -155,4 +155,5 @@ Feedstock Maintainers
 
 * [@gorkowski](https://github.com/gorkowski/)
 * [@ngam](https://github.com/ngam/)
+* [@ngmahfouz](https://github.com/ngmahfouz/)
 

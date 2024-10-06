@@ -154,6 +154,6 @@ Feedstock Maintainers
 =====================
 
 * [@gorkowski](https://github.com/gorkowski/)
+* [@mahf708](https://github.com/mahf708/)
 * [@ngam](https://github.com/ngam/)
-* [@ngmahfouz](https://github.com/ngmahfouz/)
 

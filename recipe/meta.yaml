@@ -1,4 +1,4 @@
-{% set version = "0.0.16" %}
+{% set version = "0.0.18" %}
 
 package:
   name: particula
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/uncscode/particula/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: c78ab17838168f314d73ac4eeb6b578faaad2b0629dec3f9eff69f4acee34fd5
+  sha256: c03d035a75f76e0562c3f358cc4dd1d01981e9ee9f8f7503e74cb3de9354b7c0
 
 build:
   number: 0
@@ -22,7 +22,7 @@ requirements:
     - python >=3.9,<3.12
     - numpy
     - pint
-    - scipy
+    - scipy ==1.12.0
     - hypersolver ==0.0.8
     - pandas
     - netCDF4
@@ -32,7 +32,8 @@ requirements:
     - pytz
     - matplotlib-base
     - pytorch
-
+    - scikit-learn
+    
 test:
   requires:
     - pytest
@@ -62,4 +63,4 @@ extra:
   recipe-maintainers:
     - gorkowski
     - ngam
-    - ngmahfouz
+    - mahf708

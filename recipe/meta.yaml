@@ -1,4 +1,4 @@
-{% set version = "0.0.18" %}
+{% set version = "0.0.19" %}
 
 package:
   name: particula
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/uncscode/particula/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: c03d035a75f76e0562c3f358cc4dd1d01981e9ee9f8f7503e74cb3de9354b7c0
+  sha256: 2bdf96db0c6f3bd8995782d0f87e17d77a2a198609cccaeb80cf30255647d8a4
 
 build:
   number: 0
@@ -33,7 +33,7 @@ requirements:
     - matplotlib-base
     - pytorch
     - scikit-learn
-    
+
 test:
   requires:
     - pytest

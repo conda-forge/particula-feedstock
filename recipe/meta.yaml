@@ -9,7 +9,8 @@ source:
   sha256: 2bdf96db0c6f3bd8995782d0f87e17d77a2a198609cccaeb80cf30255647d8a4
   patches:
     - patches/0001-version.patch
-    - patches/0002-numerix.patch
+    - patches/0002-numerix-1.patch
+    - patches/0002-numerix-2.patch
 
 build:
   number: 0

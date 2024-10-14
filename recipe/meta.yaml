@@ -49,7 +49,7 @@ about:
   home: https://uncscode.github.io/particula
   license: MIT
   license_family: MIT
-  license_file: LICENSE
+  license_file: license
   summary: a simple, fast, and powerful particle simulator
   description: |
     Particula is a simple, fast, and powerful particle simulator, or at least two of the three, we hope. 

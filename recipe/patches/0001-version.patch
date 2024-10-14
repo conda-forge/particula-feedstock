@@ -1,0 +1,14 @@
+diff --git a/particula/__init__.py b/particula/__init__.py
+--- particula/__init__.py
++++ particula/__init__.py
+@@ -19,9 +19,9 @@
+ 
+ # u is the unit registry name.
+ u = UnitRegistry(force_ndarray=True)
+ 
+-__version__ = "0.0.18"
++__version__ = "0.0.19"
+ 
+ # setup the logger
+ logger = setup()
+ # log the version of particula upon loading

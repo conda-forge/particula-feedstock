@@ -7,7 +7,7 @@ diff --git a/particula/next/dynamics/coagulation/transition_regime.py b/particul
      """
      coulomb_potential_ratio = np.maximum(
 -        coulomb_potential_ratio, 1e-16
-+        coulomb_potential_ratio, 1e-12
++        coulomb_potential_ratio, 1e-14
      )  # Avoid division by zero
  
      continuum_limit = 4 * np.pi * diffusive_knudsen**2

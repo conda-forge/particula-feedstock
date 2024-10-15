@@ -7,10 +7,6 @@ package:
 source:
   url: https://github.com/uncscode/particula/archive/refs/tags/v{{ version }}.tar.gz
   sha256: 8d8f64a247b67668f37e0644f93327bd44a715727890406d5eb6aed2bb44834a
-  patches:
-    - patches/0001-version.patch
-    - patches/0002-numerix-1.patch
-    - patches/0002-numerix-2.patch
 
 build:
   number: 0

@@ -1,4 +1,4 @@
-{% set version = "0.0.21" %}
+{% set version = "0.1.0" %}
 
 package:
   name: particula
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/uncscode/particula/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: f192727ef6ccde988161185505563be6ad09c9d7feacfe1a9e1ed9bcb387b6aa
+  sha256: dd25e371c8906d905c3d8ef71ab5655265f5eacf66f1747110cb175978aeae43
 
 build:
   number: 0
@@ -15,11 +15,11 @@ build:
 
 requirements:
   host:
-    - python >=3.9,<3.12
+    - python >=3.9,<3.13
     - pip
     - flit-core >=3.2,<4
   run:
-    - python >=3.9,<3.12
+    - python >=3.9,<3.13
     - numpy
     - pint
     - scipy

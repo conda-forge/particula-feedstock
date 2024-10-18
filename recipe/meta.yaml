@@ -22,17 +22,9 @@ requirements:
     - python >=3.9,<3.12
     - numpy
     - pint
-    - scipy ==1.12.0
+    - scipy
     - hypersolver ==0.0.8
-    - pandas
-    - netCDF4
-    - shapely
-    - PyMieScatt
-    - tqdm
     - pytz
-    - matplotlib-base
-    - pytorch
-    - scikit-learn
 
 test:
   requires:

@@ -157,6 +157,3 @@ Feedstock Maintainers
 * [@mahf708](https://github.com/mahf708/)
 * [@ngam](https://github.com/ngam/)
 
-
-<!-- dummy commit to enable rerendering -->
-

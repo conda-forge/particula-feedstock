@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/uncscode/particula/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: dd25e371c8906d905c3d8ef71ab5655265f5eacf66f1747110cb175978aeae43
+  sha256: e20769edac60b8ca4775f58e94c1f31082be084f6df6f16a3728bdd2732eb49f
 
 build:
   number: 0
@@ -15,16 +15,17 @@ build:
 
 requirements:
   host:
-    - python >=3.9,<3.13
+    - python {{ python_min }}
     - pip
     - flit-core >=3.2,<4
   run:
-    - python >=3.9,<3.13
+    - python >={{ python_min }}
     - numpy
     - scipy
 
 test:
   requires:
+    - python {{ python_min }}
     - pytest
     - pip
   source_files:

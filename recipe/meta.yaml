@@ -1,4 +1,4 @@
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: particula
@@ -21,10 +21,7 @@ requirements:
   run:
     - python >=3.9,<3.13
     - numpy
-    - pint
     - scipy
-    - hypersolver ==0.0.8
-    - pytz
 
 test:
   requires:
@@ -35,7 +32,7 @@ test:
   commands:
     - pip check
     - python -c "import particula; print(particula.__version__)"
-    - pytest
+    - pytest -W error
 
 about:
   home: https://uncscode.github.io/particula
@@ -44,10 +41,9 @@ about:
   license_file: license
   summary: a simple, fast, and powerful particle simulator
   description: |
-    Particula is a simple, fast, and powerful particle simulator, or at least two of the three, we hope. 
-    It is a simple particle system that is designed to be easy to use and easy to extend. 
-    The goal is to have a robust aerosol (gas phase and particle phase) simulation system 
-    that can be used to answer scientific questions that arise for experiments and research discussions.
+    Particula is a Python-based aerosol particle simulator. Its goal is to
+    provide a robust aerosol simulation (including both gas and particle phases)
+    that can be used to answer scientific questions arising from experiments and research endeavors.
   dev_url: https://github.com/uncscode/particula
   doc_url: https://uncscode.github.io/particula/
 

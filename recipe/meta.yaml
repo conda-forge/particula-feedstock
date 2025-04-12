@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 
 package:
   name: particula
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/uncscode/particula/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: c1fa66f62ac9d6df885bff07baac31f5c1b599ce3ab968d6ad1a2ad7f6fdb51f
+  sha256: 339ca65e408c7cc9cad051e58021312fff8c7564a339f8e3970f0fddcb3d176c
 
 build:
   number: 0

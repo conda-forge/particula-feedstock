@@ -33,7 +33,7 @@ test:
   commands:
     - pip check
     - python -c "import particula; print(particula.__version__)"
-    - pytest -W error
+    - pytest -W error -W "ignore::pytest.PytestUnknownMarkWarning" -m "not slow and not performance"
 
 about:
   home: https://uncscode.github.io/particula

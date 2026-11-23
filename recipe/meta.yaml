@@ -11,19 +11,20 @@ source:
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
     - python {{ python_min }}
     - pip
-    - flit-core >=3.2,<4
+    - flit-core >=3.12,<4
   run:
-    - warp-lang
-    - typing_extensions >=4.0.0
     - python >={{ python_min }}
     - numpy >=2.0.0
     - scipy >=1.14.0
+    - typing_extensions >=4.0.0
+    - warp-lang
+    - pyyaml
 
 test:
   requires:
@@ -32,10 +33,18 @@ test:
     - pip
   source_files:
     - particula
+    - pyproject.toml
+    - conftest.py
+    - scripts/run_release_tests.py
+    - docs/studies/examples/particle-processes/sources-and-dilution/cpu_dilution.py
+    - docs/studies/examples/particle-processes/sources-and-dilution/cpu_nucleation.py
+    - docs/studies/examples/particle-processes/condensation/condensation_latent_heat.py
+    - examples_tests/dilution_example_test.py
+    - examples_tests/nucleation_example_test.py
+    - examples_tests/condensation_latent_heat_example_test.py
   commands:
-    - pip check
-    - python -c "import particula; print(particula.__version__)"
-    - pytest -W error -W "ignore::pytest.PytestUnknownMarkWarning" -m "not slow and not performance"
+    - python scripts/run_release_tests.py --installed
+    - python scripts/run_release_tests.py --installed --suite examples
 
 about:
   home: https://uncscode.github.io/particula
